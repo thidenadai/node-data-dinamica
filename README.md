@@ -14,6 +14,7 @@ http.createServer(function (req, res) { res.writeHead(200, {'Content-Type': 'tex
 var dataAtual = new Date(); var dataFormatada = dataAtual.toLocaleDateString('pt-BR');
 
 res.end('
+
 6.Sair e Salvar, apertando "X"
 
     digitar no terminal: node index.js
